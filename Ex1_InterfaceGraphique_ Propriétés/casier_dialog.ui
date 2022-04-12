@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>622</width>
+    <height>507</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_erreur_numero_casier">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>441</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;*Le numero de casier est doit etre composer de &lt;/span&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; color:#ff5500;&quot;&gt;c&lt;/span&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; color:#ff0000;&quot;&gt;omposé&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; color:#ff0000;&quot;&gt;  d’une lettre et suivi de 4 chiffres. ex: (A0000)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_numero_casier">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>281</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_numero_casier">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Numéro de casier</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_localisation">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>330</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_casier">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>230</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Petit</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Moyen</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Grand</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_casier">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>430</y>
+     <width>281</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_erreur_numero_casier_2">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>441</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;*Le numero de casier n'est pas disponible&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
